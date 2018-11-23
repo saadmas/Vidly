@@ -228,6 +228,14 @@
     <Compile Include="Migrations\201811230729259_Set MembershipType Names of first 4 customers.Designer.cs">
       <DependentUpon>201811230729259_Set MembershipType Names of first 4 customers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811230737358_Birthdate for Customer.cs" />
+    <Compile Include="Migrations\201811230737358_Birthdate for Customer.Designer.cs">
+      <DependentUpon>201811230737358_Birthdate for Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811230746214_Add Birthdate for Customer 1.cs" />
+    <Compile Include="Migrations\201811230746214_Add Birthdate for Customer 1.Designer.cs">
+      <DependentUpon>201811230746214_Add Birthdate for Customer 1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
@@ -321,6 +329,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811230729259_Set MembershipType Names of first 4 customers.resx">
       <DependentUpon>201811230729259_Set MembershipType Names of first 4 customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811230737358_Birthdate for Customer.resx">
+      <DependentUpon>201811230737358_Birthdate for Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811230746214_Add Birthdate for Customer 1.resx">
+      <DependentUpon>201811230746214_Add Birthdate for Customer 1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

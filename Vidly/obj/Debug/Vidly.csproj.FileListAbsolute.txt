@@ -250,3 +250,5 @@ C:\Users\Hp\Documents\Projects\vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMe
 C:\Users\Hp\Documents\Projects\vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
 C:\Users\Hp\Documents\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddnametoMembershipType.resources
 C:\Users\Hp\Documents\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetMembershipTypeNamesoffirst4customers.resources
+C:\Users\Hp\Documents\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.BirthdateforCustomer.resources
+C:\Users\Hp\Documents\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateforCustomer1.resources
