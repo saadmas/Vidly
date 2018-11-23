@@ -1,0 +1,45 @@
+﻿@**
+    IEnumerable = simple interface implemented by the list class.
+    - Since in this view we only want to iterate over this list, and we don't
+    need any of the operations in the List class (eg Add, Remove, etc),
+    - If in the future, we replace the List with a different data structure,
+    as long as it is enumerable, our view code will remain unchanged.
+*@
+
+@model IEnumerable<Vidly.Models.Customer>
+
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customers</h2>
+
+@** Check if there are any customers *@
+@if (!Model.Any())
+{
+    <h3>There are no customers yet.</h3>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Customer</th>
+                <th>Discount Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+            <tr>
+                <td class="list-group-item">@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null) </td>
+                <td>@customer.MembershipType.DiscountRate%</td>
+            </tr>
+
+            }
+        </tbody>
+    </table>
+}
+
+
