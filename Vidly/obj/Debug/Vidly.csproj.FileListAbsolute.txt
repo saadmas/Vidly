@@ -248,3 +248,5 @@ C:\Users\Hp\Documents\Projects\vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\Hp\Documents\Projects\vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\Hp\Documents\Projects\vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\Hp\Documents\Projects\vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\Hp\Documents\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddnametoMembershipType.resources
+C:\Users\Hp\Documents\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetMembershipTypeNamesoffirst4customers.resources
